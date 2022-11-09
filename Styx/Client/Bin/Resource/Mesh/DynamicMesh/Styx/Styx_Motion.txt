@@ -1,0 +1,322 @@
+//
+0	벌래	(정면)	One	Front	2~3	점프후 정면으로 돌아 살해		
+//near
+1	사람	(정면) 	Out	Front	0	발로밟고 누워있는적 찌르기		
+2		(정면) 	Out	Front	0	발로밟고 누워있는적 찌르기2		
+3		(정면) 	Loop	Front	0	발로밟고 고개돌리기(?)스캔(?)		
+4		(정면) 	In	Front	1~2	발로 걸어 넘어트리기 후 밟기		
+5		(정면) 	Out2	Front	0	발로밟고 무음살해중 살해		
+6		(정면) 	Out2	Front	0	누워있는적 무음살해?(까꿍?)		
+7		(정면) 	Loop	Front	0	누워있는적 목조르기중(?)		
+8		(정면) 	In	Front	1~2	박치기해서 넘어트리기후 목조르기	
+
+9	벌래	(후면) 	One	Back	2~3	앞으로 뛰어서 칼로찌르며 살해		
+
+10	사람	(후면) 	Out2	Right	0	누워있는적 밟고 목틀기			
+11		(후면)	Out	Right	1	목잡던거 틀기(무음살해?)				
+12		(후면)	Loop	Right 	0	목잡기(무음살해중)					
+13		(후면)	In	Right 	1	칼로찌르고 돌려서 넘어트리기		
+14		(후면)	Out2	Left	0	넘어트린적 찌르기			
+15		(후면)	Out2	Left	0	넘어트린적 목내려치기			
+16		(후면)	Loop	Left	0	넘어트린적 목조르는중					
+17		(후면) 	In	Left	1	다리걸어 넘어트리기			
+18		(후면)	Out2	Back	0	칼로푹찌르기				
+19		(후면)	Out	Back	0	목비틀기(무음살해)					
+20		(후면)	Loop	Back	0	목조르는중						
+21		(후면)	In	Back	1	뒤에서 발로 차기?			
+//Far
+22		(후면)	Out2	Right	-1	
+23		(후면)	Out	Right	-1	
+24		(후면)	Loop	Right	0	
+25		(후면)	In	Right	2~3
+26		(후면)	Out2	Left	0
+27		(후면)	Out	Left	0
+28		(후면)	Loop	Left	0
+29		(후면)	In	Left	1
+30		(후면)	Out	Right	0
+31		(후면)	Loop	Right	0
+32		(후면)	In	Right	2~3
+33		(후면)	Out2	Back	0
+34		(후면)	Out	Back	0
+35		(후면)	Loop	Back	0
+36		(후면)	Out	Left	0
+37		(후면)	Loop	Left	0
+38		(후면)	In	Left	2~3
+39		(후면)	In	Back	2~3
+
+//매달린상태에서 끌어내리기
+40		(밑)	One	Right	0
+41		(밑)	One	Left	0
+42		(밑)	One	Front	0
+43		(밑)	One	Back	0
+
+//나락으로 떨어져라!!!!!!!
+44		(cliff)	One	Right	2
+45		(cliff)	One	Left	2
+46		(cliff)	One	Back	2
+
+//Air
+47	벌래	(Air)	One	Front	
+48	벌래	(Air)	One	Back
+49	사람	(Air)	One	Front
+50	사람	(Air)	One2	Front
+51	사람	(Air)	One2	Front
+52	elf	(Air)	One	Front
+53	elf	(Air)	One2	Front
+54	elf	(Air)	One	Back
+55	elf	(Air)	One2	Back
+56	사람	(Air)	One	Back
+57	사람	(Air)	One2	Back
+
+//시체
+58	시체	(Hide)	Trunk
+59	elf	(Hide)	Trunk
+60	시체	(Hide)	CupBoard
+61	elf	(Hide)	CupBoard
+62	시체	(Carry)	Walk_Forward
+63	시체	(Carry) Run_Forward
+64	시체	(Carry)	idle등에지고있는?
+65	시체	(Carry)	Pick	Front
+66	시체	(Carry) Pick	Back
+67	elf	(Carry)	Walk_Forward
+68	elf	(Carry) Run_Forward
+69	elf	(Carry) Pick	Front
+70	elf	(Carry) Pick	Back
+71	elf	(Carry)	idle	
+72	elf	(Carry)	Drop
+73	시체	(Carry)	Drop
+
+//클론
+74	clone	(Create)
+75	clone	(Done?)
+76	clone	(switch_Loop)
+77	clone	(switch_Out)
+78	clone	(switch_idle)
+79	clone	(End_Clone_Destroy)
+
+//벽에 붙어서 이동
+80		(cover)	walk	Left
+81		(cover)	Turn	Left
+82		(cover)	Run	Left
+83		(cover)	idle	Up
+84		(cover)	idle	Right
+85		(cover)	idle	Left
+
+//휘파람
+86		(cover)	Make_Sound	Right
+87		(cover)	Make_Sound	Left
+
+//나이프투척
+88		(cover)	KnifeThrow	Right_Up
+89		(cover)	KnifeThrow	Right
+90		(coner)	KnifeThrow	Left_Up
+91		(cover)	KnifeThrow	Left
+
+//킬..?무기막고 때리는?
+92		(cover)	Kill		Right_Front
+93		(cover)	Kill		Left_Front
+94		(cover)	Kill		Front_Right
+95		(cover)	Kill		Back_Right
+96		(cover)	Kill		Back_Left
+
+//무빙?
+97		(cover)	Idle		Right to Left
+98		(cover)	Idle		Left to Right
+99		(cover)	Idle		Left
+
+//죽는중
+100		(Killed) Spear		잡혀서 올라갔다가 찔리고 떨굼 
+101		(Killed) Cut	 	옆으로 들어서 칼로밴다?
+102		(Killed) Crossbow	화살맞아 죽음
+103		(Killed) blunt		마비걸려 죽나?
+
+//방해받음
+104	사람	(Interrupte) Low	Up
+105 	사람	(Interrupte) Height	Up
+106	벌래	(Hurt)	
+107	불	(Hurt)
+108	cac	(Hurt)
+109	anchor	(Hurt)
+110	Air	(Hurt)
+
+//죽음
+111		(Dead)Idle
+112		(Dead)fall_back
+113		(Dangger)Hurt
+
+114	벌래	cloneKilled
+115		Stun2
+116		Stun
+//구른다!, 막는다!
+117		dodge		Right
+118		dodge		Left
+119		dodge		Front	---------------------------못쓸듯
+120		counter
+121		dodge		Back
+//투척!
+122		Kick		
+123		(Jump) ThrowSand   흙투척
+124		(Jump) Throwdagger 단검투척
+//파이트!?
+125		(Fight)	right		싸울때 옆으로 걷는?
+126		(Fight)	Left
+127		(Fight)	idle
+128		(Fight)	Forward
+129		(Fight)	Backward
+
+130		(Fight)	FakeStab vs styx???? 전진하면서 찌르다?
+131		(Fight)	FakeStab near
+132		(Fight)	어텍3
+133		(Fight) 어텍2
+134		(Fight) 어텍1
+135		(Fight)	idle
+
+//상호작용(?)
+136		(Trigger) 	PickUp	Front
+137		(Trigger) 	PickUp	Floor2
+138		(Trigger) 	PickUp	Floor
+139		(Trigger) 	PickPockect	Up
+140		(Trigger) 	Light_Off 모레던지기
+141		(Trigger) 	Light_Off 직접끄기2
+142		(Trigger)	Light_Off 직접끄기1
+143		(Trigger)	Food_Poision	Floor	독
+144		(Trigger)	Fool_Poision	Up
+145		(Trigger)	Drop_Shelf
+146		(Trigger)	Drop		Floor
+147		(Trigger)	Doorsmall_Close	Right
+148		(Trigger)	Doorsmall_Close	Left
+149		(Trigger)	DoorBig_Open	Right
+150		(Trigger)	DoorBig_Open	Left
+151		(Trigger)	Door_UnLock
+152		(Trigger)	Out	Door_Scout
+153		(Trigger)	Loop	Door_Scout
+154		(Trigger)	In	Door_Scout
+155		(Trigger)	Door_open_endzone
+156		(Trigger)	Door_open
+157		(Trigger)	Door_close	Right
+158		(Trigger)	Door_close	Left
+159		(Trigger)	Activate_Lever
+160		(Trigger)	Activate
+161		(Detach)	Out	때는거Stop	Mid
+162		(Detach)	Out	때는거 		Mid
+163		(Detach)	Loop	때는거		Mid
+164		(Detach)	In	때는거 		Mid
+165		(Detach)	One	때는거		Mid
+166		(Detach)	Out	때는거Stop 	Low
+167		(Detach)	Out	때는거 		Low
+168		(Detach)	Loop	때는거 		Low
+169		(Detach)	In	때는거 		Low
+170		(Detach)	One	때는거 		Low
+
+//무빙
+171		(Move)	Tired	Walk	
+172		(Move)	Sneak	Walk	Forward		//살금살금
+173		(Move)	Sneak	Run	Forward		//무기없음
+174		(Move)	Sneak	Run	Forward		//무기있음
+175		(Move)	Sneak	idle	Injured3
+176		(Move)	Sneak	idle	Injured2
+177		(Move)	Sneak	idle	Injured1
+178		(Move)	Sneak	idle3
+179		(Move)	Sneak	idle2
+180		(Move)	Sneak	idle1
+181		(Move)	Sneak	dodge
+182		(Move)	use heal potion
+183		(Move)	use amber potion
+184		(Move)	acide_potion(???)
+
+185		(Pose)	Dead
+186		(X)	Make_Sound
+187		(Jump)	Up
+188		(Jump)	떨어져죽음
+189		(Jump)	preland
+190		(Jump)	Land_Middle_sneak
+191		(Jump)	Land_Middle_noisy
+192		(Jump)	Land_Low_sneak
+193		(Jump)	Land_Low_noisy
+194		(Jump)	Land_Height_sneak
+195		(Jump)	Land_Height_noisy
+196		(Jump)	Land
+197		(Jump)	Down
+198		(Jump)	Dead
+
+199		(idle)	Tired
+200		(idle)	injured3
+201		(idle)	injured2
+202		(idle)	injured1
+
+//벽매달리기
+203		(Hang)	Loop	Up
+204		(Hang)	Loop	Right
+205		(Hang)	Loop	Hang
+206		(Hang)	Loop	Left
+207		(Hang)	One	Fall_Hight
+208		(Hang)	Loop	Down
+209		(Hang)	One	Climb To Sneak
+210		(Hnag)	One	Climb To idle
+
+211		(Fight)	Walk
+212		(Fight)	Run
+213		(Fight)	idle Turn 	Right	180
+214		(Fight)	idle Turn	Right	90
+215		(Fight)	idle Turn	Left	90
+216		(Fight)	idle Turn	Left	180
+217		(Fight)	idle3
+218		(Fight)	idle2
+219		(Fight)	idle1
+
+//벽이동
+220		(Edge)		Loop	Move	Right
+221		(Edge)		Loop	Move	Left
+222		(Edge)		Loop	idle	Down
+223		(Edge)		Loop	idle
+224		(Edge)		One	drop
+225		(ClimbWall) 	Out		
+226		(ClimbWall)	Out	Low	Sneak
+227		(ClimbWall)	Out	Low
+228		(ClimbWall)	Loop	
+229		(ClimbWall)	In	
+230		(ClimbWall)	One	Hight
+231		(Climb)		Out	Right
+232		(Climb)		Loop	Right
+233		(Climb)		In	Right
+234		(Climb)		Out	Left
+235		(Climb)		Loop	Left
+236		(Climb)		In	Left
+237		(Climb)		In	Hang
+
+238		Prisoner_Kill(?)
+239		Kill_Slow(?)
+
+240		Kill_slow	In	Right
+241		Kill_slow	In	Left
+242		Kill_slow	In	Front
+
+243		Kill_Quick		Right
+244		Kill_Quick		Left
+245		Kill_Quick		Front
+
+//경비가 찾다가 걸림
+246	사람	(Searched)	trunk	
+247	사람	(Searched)	Hole
+248	벌래	(Searched)	HideOut
+249	벌래	(Searched)	HideOut2
+250	사람	(Searched)	HideOut
+251	사람	(Searched)	Stun
+252	사람	(Searched)	Cupboard
+253	사람	(Searched)	Cache
+254	사람	(Searched)	balustrade
+255	사람	(Searched)	balustrade_Edge
+
+256		(Hide)	Out	Trunk
+257		(Hide)	In	Trunk
+258		(Hide)	In	topcache
+259		(Hide)	Out	Hole
+260		(Hide)	In	Hole
+261		(Hide)	In2	Hole
+262		(Hide)	In3	Hole
+263		(Hide)	idle	Hole
+264		(Hide)	Out	Cupboard
+265		(Hide)	In	Cupboard
+266		(Hide)	Out	Cache
+267		(Hide)	Loop	Cache
+268		(Hide)	In	Cache

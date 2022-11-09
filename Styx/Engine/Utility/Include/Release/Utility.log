@@ -1,0 +1,84 @@
+﻿  Collider.cpp
+c:\users\ghrud\onedrive\바탕 화면\styx\engine\utility\code\LightMgr.h(31): warning C4267: 'return': 'size_t'에서 'Engine::_ushort'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     ../Bin/Release\Utility.lib 라이브러리 및 ../Bin/Release\Utility.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  0 of 3316 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Utility.vcxproj -> C:\Users\ghrud\OneDrive\바탕 화면\Styx\Engine\Utility\Include\../Bin/Release\Utility.dll
+  Utility.vcxproj -> ../Bin/Release\Utility.pdb (Full PDB)
+  .\Engine\Utility\Code\AniCtrl.h
+  .\Engine\Utility\Code\Calculator.h
+  .\Engine\Utility\Code\Camera.h
+  .\Engine\Utility\Code\Cell.h
+  .\Engine\Utility\Code\Collider.h
+  .\Engine\Utility\Code\CollisionMgr.h
+  .\Engine\Utility\Code\Component.h
+  .\Engine\Utility\Code\ComponentMgr.h
+  .\Engine\Utility\Code\CubeCol.h
+  .\Engine\Utility\Code\CubeCollider.h
+  .\Engine\Utility\Code\CubeTex.h
+  .\Engine\Utility\Code\DynamicMesh.h
+  .\Engine\Utility\Code\Frustum.h
+  .\Engine\Utility\Code\GameObject.h
+  .\Engine\Utility\Code\HierarchyLoader.h
+  .\Engine\Utility\Code\KeyMgr.h
+  .\Engine\Utility\Code\Layer.h
+  .\Engine\Utility\Code\Light.h
+  .\Engine\Utility\Code\LightMgr.h
+  .\Engine\Utility\Code\Line.h
+  .\Engine\Utility\Code\Management.h
+  .\Engine\Utility\Code\Mesh.h
+  .\Engine\Utility\Code\NaviMesh.h
+  .\Engine\Utility\Code\NaviMgr.h
+  .\Engine\Utility\Code\ObjectMgr.h
+  .\Engine\Utility\Code\Optimization.h
+  .\Engine\Utility\Code\QuadTree.h
+  .\Engine\Utility\Code\RcCol.h
+  .\Engine\Utility\Code\RcTex.h
+  .\Engine\Utility\Code\Renderer.h
+  .\Engine\Utility\Code\RenderTarget.h
+  .\Engine\Utility\Code\Resources.h
+  .\Engine\Utility\Code\ResourcesMgr.h
+  .\Engine\Utility\Code\Scene.h
+  .\Engine\Utility\Code\Shader.h
+  .\Engine\Utility\Code\SphereCol.h
+  .\Engine\Utility\Code\SphereCollider.h
+  .\Engine\Utility\Code\StaticMesh.h
+  .\Engine\Utility\Code\Target_Manager.h
+  .\Engine\Utility\Code\TerrainRcTex.h
+  .\Engine\Utility\Code\TerrainTex.h
+  .\Engine\Utility\Code\Texture.h
+  .\Engine\Utility\Code\Transform.h
+  .\Engine\Utility\Code\TriCol.h
+  .\Engine\Utility\Code\VIBuffer.h
+  .\Engine\Utility\Code\VIBuffer_ViewPort.h
+         46개 파일이 복사되었습니다.
+  .\Engine\Utility\Code\Shader_Alpha.hpp
+  .\Engine\Utility\Code\Shader_Base.hpp
+  .\Engine\Utility\Code\Shader_Mesh.hpp
+  .\Engine\Utility\Code\Shader_Sample.hpp
+  .\Engine\Utility\Code\Shader_Terrain.hpp
+          5개 파일이 복사되었습니다.
+  .\Engine\Utility\Code\Shader_Blend.fx
+  .\Engine\Utility\Code\Shader_LightAcc.fx
+          2개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  .\Engine\Header\Engine_Enum.h
+  .\Engine\Header\Engine_Function.h
+  .\Engine\Header\Engine_Include.h
+  .\Engine\Header\Engine_Macro.h
+  .\Engine\Header\Engine_Struct.h
+  .\Engine\Header\Engine_Typedef.h
+  .\Engine\Header\Export_Function.h
+  .\Engine\Header\Export_Resources.h
+  .\Engine\Header\Export_System.h
+  .\Engine\Header\Export_Utility.h
+         10개 파일이 복사되었습니다.
+  .\Engine\Header\Export_Resources.inl
+  .\Engine\Header\Export_System.inl
+  .\Engine\Header\Export_Utility.inl
+          3개 파일이 복사되었습니다.

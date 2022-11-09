@@ -1,0 +1,35 @@
+Styx KeyInput
+0 - Sleep
+5 - Timer Plus
+6 - FirstPerson
+7 - JumpPowerUp
+8 - EliteView
+9 - Sneak
+1,2,3,4 - Turn
+CapsLock - FightState
+R - Roll
+T - Sit
+F - 앉아서 찾기
+Q - 마우스 나타나게하고 카메라 움직임막기
+F2 - 렌더타겟 보기
+F3 - 충돌구, 네비메쉬 와이어프레임 보기
+
+NumPad9 - SlowActive False
+NumPad7 - Elite SwordActiveOut
+NumPad6 - SinkTime False
+
+Tool
+1 - ShowCursor false
+2 - ShowCursor true
+
+
+Cheat Key
+TAB 뒤로가기
+
+
+
+
+스토리
+1번죽이고 -> 문막힌거보여주고 -> 2번 트렁크앞에서죽이고 트렁크속에 숨기고
+3번 장롱안에 숨다가 나와서 장롱앞에서 죽이고 ->
+4번 테이블에서 나와서 죽이고 ->
