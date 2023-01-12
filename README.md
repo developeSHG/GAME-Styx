@@ -1,21 +1,13 @@
 # GAME-Styx
 [DirectX 3D - Individual Project] 스틱스
 
-
 동영상(Client)    : https://www.youtube.com/watch?v=gf9KTKMfrRw
-
-동영상(Tool)      : https://www.youtube.com/watch?v=Jzo6Vq71sAQ
-
-장르              : 잠입액션
-
-날짜              : 2019.11.01 ~ 2019.12.01
-
-인원              : 1명
-
-개발 환경         : Visual Studio 2015 (x64)
-
-개발 언어 및 도구  : C++, MFC, DirectX9, HLSL
-
+<br/>동영상(Tool)      : https://www.youtube.com/watch?v=Jzo6Vq71sAQ
+<br/>장르              : 잠입액션
+<br/>날짜              : 2019.11.01 ~ 2019.12.01
+<br/>인원              : 1명
+<br/>개발 환경         : Visual Studio 2015 (x64)
+<br/>개발 언어 및 도구  : C++, MFC, DirectX9, HLSL
 
 ======================================================================
 
