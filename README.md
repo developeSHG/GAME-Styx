@@ -1,7 +1,7 @@
 # GAME-Styx
 [DirectX 3D - Individual Project] 스틱스
 
-동영상(Client)    : https://www.youtube.com/watch?v=gf9KTKMfrRw
+ 동영상(Client)    : https://www.youtube.com/watch?v=gf9KTKMfrRw
 <br/>동영상(Tool)      : https://www.youtube.com/watch?v=Jzo6Vq71sAQ
 <br/>장르              : 잠입액션
 <br/>날짜              : 2019.11.01 ~ 2019.12.01
