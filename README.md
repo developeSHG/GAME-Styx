@@ -8,6 +8,7 @@
 <br/>인원              : 1명
 <br/>개발 환경         : Visual Studio 2015 (x64)
 <br/>개발 언어 및 도구  : C++, MFC, DirectX9, HLSL
+<br/>Blog : https://song-ift.tistory.com/46
 
 ======================================================================
 
