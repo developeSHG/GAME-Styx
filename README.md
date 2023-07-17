@@ -12,7 +12,7 @@
 
 <hr size="5">
 
-* 메인 프레임워크 (DLL로 분리해 엔진과 클라이언트를 세분화)
+<h4>* 메인 프레임워크 (DLL로 분리해 엔진과 클라이언트를 세분화)<h4>
   - Component, Prototype Pattern을 사용해 독립적, 효율적 구조 형성
   - Reference Count로 객체의 생명주기 관리
 
