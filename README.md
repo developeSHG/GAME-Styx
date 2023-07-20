@@ -1,4 +1,6 @@
 # GAME-Styx
+
+<img width="100%" src="https://user-images.githubusercontent.com/79896868/254760160-fd740c9c-ac8e-4a61-8f6e-5875e280970b.png"/>
 <h3>[DirectX 3D - Individual Project] 스틱스</h3>
 
 <b>동영상(Client)</b>    : https://www.youtube.com/watch?v=gf9KTKMfrRw
